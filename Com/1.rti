@@ -1,0 +1,178 @@
+
+ ------------------------------------------------------------------------------
+   Job name ............ : 1
+   Failure criterion no. :      1
+   Comment : No commen                                                   
+   Transformation type   : Rosenblatt
+   Optimization algorithm: RFLS  
+   Date(dd.mm.yy) ...... : 23.05.2019
+   Time(hh:mm) ........  : 18:08
+   COMRELTI, (Version 8), (c) Copyright: RCP GmbH (1989-2012)
+ ------------------------------------------------------------------------------
+
+ ------------------------------------------------------------------------------
+
+  Defined in State Functions Window for Symbolic Processor:
+
+   FLIM(1)= X1*X2-0.125*X3*X4*X4
+
+ ------------------------------------------------------------------------------
+
+          ************************************************
+               Check Stochastic Model for COMREL-TI
+                No.of basic variables: NBV =    4
+          ************************************************
+
+
+  Variable: X1      ; No. on X-vector =  1
+  Comment : fy                                                          
+  Distribution Type......... : Normal (2)                    
+  Form of Input............. : Mean & Std.Dev.  (0)
+  Mean value................ =    30.30       ( 0.303000000000000E+02)
+  Standard deviation........ =    1.212       ( 0.121200000000000E+01)
+  Coefficient of Variation.. =   4.0000E-02   ( 0.400000000000000E-01)
+  Distr.Param.no.1 : m       =     30.30       ( 0.303000000000000E+02)
+  Distr.Param.no.2 : sigma   =     1.212       ( 0.121200000000000E+01)
+  ------------------------- 
+
+  Variable: X2      ; No. on X-vector =  2
+  Comment : Wpl                                                         
+  Distribution Type......... : Normal (2)                    
+  Form of Input............. : Mean & Std.Dev.  (0)
+  Mean value................ =    723.2       ( 0.723193500000000E+03)
+  Standard deviation........ =    14.46       ( 0.144638700000000E+02)
+  Coefficient of Variation.. =   2.0000E-02   ( 0.200000000000000E-01)
+  Distr.Param.no.1 : m       =     723.2       ( 0.723193500000000E+03)
+  Distr.Param.no.2 : sigma   =     14.46       ( 0.144638700000000E+02)
+  ------------------------- 
+
+  Variable: X3      ; No. on X-vector =  3
+  Comment : p                                                           
+  Distribution Type......... : Gumbel (max) (7)              
+  Form of Input............. : Mean & Std.Dev.  (0)
+  Mean value................ =   0.3000       ( 0.300000000000000E+00)
+  Standard deviation........ =   9.0000E-02   ( 0.900000000000000E-01)
+  Coefficient of Variation.. =   0.3000       ( 0.300000000000000E+00)
+  Distr.Param.no.1 : u       =    0.2595       ( 0.259495209839937E+00)
+  Distr.Param.no.2 : alpha   =     14.25       ( 0.142505531498623E+02)
+  ------------------------- 
+
+  Variable: X4      ; No. on X-vector =  4
+  Comment : L                                                           
+  Distribution Type......... : Normal (2)                    
+  Form of Input............. : Mean & Std.Dev.  (0)
+  Mean value................ =    450.0       ( 0.450000000000000E+03)
+  Standard deviation........ =   0.2000       ( 0.200000000000000E+00)
+  Coefficient of Variation.. =   4.4444E-04   ( 0.444444444444444E-03)
+  Distr.Param.no.1 : m       =     450.0       ( 0.450000000000000E+03)
+  Distr.Param.no.2 : sigma   =    0.2000       ( 0.200000000000000E+00)
+  ------------------------- 
+
+             (Lower bounds on U-space variables)   
+  (X1      ;  1;  -36.69    )      (X2      ;  2;  -36.69    )      
+  (X3      ;  3;  -36.69    )      (X4      ;  4;  -36.69    )      
+
+          ----- Default U-start = Origin (U=0) ----
+  (X1      ;  1;   0.000    )      (X2      ;  2;   0.000    )      
+  (X3      ;  3;   0.000    )      (X4      ;  4;   0.000    )      
+
+          --- X-start: Median values from U=0  ----
+  (X1      ;  1;   30.30    )      (X2      ;  2;   723.2    )      
+  (X3      ;  3;  0.2852    )      (X4      ;  4;   450.0    )      
+
+             (Upper bounds on U-space variables)   
+  (X1      ;  1;   36.69    )      (X2      ;  2;   36.69    )      
+  (X3      ;  3;   36.69    )      (X4      ;  4;   36.69    )      
+ ------------------------------------------------------------------------------
+     Echo of Control Switches (integer parameters) for this run :
+      IMETH , IALFA , NSIMUL, IUDEF , IGRFL ,MAXIT1, MAXIT2
+        1       2       0       0       0      50      50
+     Echo of Control Constants (real parameters) for this run :
+      EPSCON=1.00E-03, SMU=0.10, SIMSTA=1.000000
+      SCALing constant (set by COMREL) =  0.1469E+05
+
+ ********************************** RESULTS: **********************************
+     First-Order reliability index :  (FORMBE) =        3.535
+     Corresponding approximate prob.of failure =   2.0395E-04
+ ------------------------------------------------------------------------------
+     Scaled State-Function value at x-*(u-*)=  0.3972E-08
+      and Vector u-* (beta-point) :
+          (X1      ;  1; -0.4583    )     (X2      ;  2; -0.2260    )     
+          (X3      ;  3;   3.498    )     (X4      ;  4;  9.9981E-03)     
+     Normalized U-space gradient (alfa-U) with norm =  0.4580      :
+          (X1      ;  1;  0.1296    )     (X2      ;  2;  6.3925E-02)     
+          (X3      ;  3; -0.9895    )     (X4      ;  4; -2.8283E-03)     
+     Normalized Representative alfa-values with norm =   1.000      :
+          (X1      ;  1;  0.1296    )     (X2      ;  2;  6.3925E-02)     
+          (X3      ;  3; -0.9895    )     (X4      ;  4; -2.8283E-03)     
+ ------------------------------------------------------------------------------
+     Solution in Basic- (X-) space (x-*):
+          (X1      ;  1;   29.74    )     (X2      ;  2;   719.9    )     
+          (X3      ;  3;  0.8460    )     (X4      ;  4;   450.0    )     
+     Gradient in Basic- (X-) space (scaled by 1/SCAL, see above):
+          (X1      ;  1;  4.8997E-02)     (X2      ;  2;  2.0244E-03)     
+          (X3      ;  3;  -1.723    )     (X4      ;  4; -6.4773E-03)     
+ ------------------------------------------------------------------------------
+     Constant Parameters (PVEC):
+
+ ------------------------------------------------------------------------------
+     Statistics after beta-point search
+     Gradient evaluations    :      6
+     Calls of state-function :     32
+ ------------------------------------------------------------------------------
+
+     Influence of Distribution Parameters of Basic Variables on beta :
+     Part one: Sensitivities of Distribution Parameters.
+     (Name; No.on X-vector; Sensitivity)
+     For Distr. Param. #1 (=row on matrix VP):
+          (X1      ;  1;  0.1070    )     (X2      ;  2;  4.4197E-03)     
+          (X3      ;  3;  -3.761    )     (X4      ;  4; -1.4141E-02)     
+     For Distr. Param. #2 (=row on matrix VP):
+          (X1      ;  1; -4.9023E-02)     (X2      ;  2; -9.9872E-04)     
+          (X3      ;  3;  0.1548    )     (X4      ;  4; -1.4139E-04)     
+     For Distr. Param. #3 (=row on matrix VP):
+          (X1      ;  1;   0.000    )     (X2      ;  2;   0.000    )     
+          (X3      ;  3;   0.000    )     (X4      ;  4;   0.000    )     
+     For Distr. Param. #4 (=row on matrix VP):
+          (X1      ;  1;   0.000    )     (X2      ;  2;   0.000    )     
+          (X3      ;  3;   0.000    )     (X4      ;  4;   0.000    )     
+     Part two: Elastcities of Distribution Parameters.
+     (Name; No.on X-vector; Elasticity = %-change in beta)
+     For Distr. Param. #1 (=row on matrix VP):
+          (X1      ;  1;  0.9169    )     (X2      ;  2;  0.9042    )     
+          (X3      ;  3; -0.2761    )     (X4      ;  4;  -1.800    )     
+     For Distr. Param. #2 (=row on matrix VP):
+          (X1      ;  1; -1.6808E-02)     (X2      ;  2; -4.0864E-03)     
+          (X3      ;  3;  0.6239    )     (X4      ;  4; -7.9993E-06)     
+     For Distr. Param. #3 (=row on matrix VP):
+          (X1      ;  1;   0.000    )     (X2      ;  2;   0.000    )     
+          (X3      ;  3;   0.000    )     (X4      ;  4;   0.000    )     
+     For Distr. Param. #4 (=row on matrix VP):
+          (X1      ;  1;   0.000    )     (X2      ;  2;   0.000    )     
+          (X3      ;  3;   0.000    )     (X4      ;  4;   0.000    )     
+
+     Influence of Expectations of Basic Variables on beta :
+     (Name; No.on X-vector; Elasticity = %-change in beta)
+          (X1      ;  1;  0.9169    )     (X2      ;  2;  0.9042    )     
+          (X3      ;  3; -0.3192    )     (X4      ;  4;  -1.800    )     
+
+     Influence of Std.Deviations of Basic Variables on beta :
+     (Name; No.on X-vector; Elasticity = %-change in beta)
+          (X1      ;  1; -1.6808E-02)     (X2      ;  2; -4.0864E-03)     
+          (X3      ;  3; -0.5726    )     (X4      ;  4; -7.9993E-06)     
+ ------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------
+
+     Partial Safety Factors: Equival. x-* /  Characteristic Value
+      Basic Variable,  Equival. x-* , Charact. Value, Part.Safety Fact.
+      (X1      :  1)     29.7445         30.3000            0.982
+      (X2      :  2)     719.925         723.193            0.995
+      (X3      :  3)    0.845971        0.300000            2.820
+      (X4      :  4)     450.002         450.000            1.000
+
+                 --------- Statistics after COMREL-TI ---------
+                  State Function calls              =    33
+                  State Funct. gradient evaluations =     6
+                  Total computation time (CPU-secs.)=     0.03
+                  The error indicator (IER) was =    0
+                 **********************************************

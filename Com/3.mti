@@ -1,0 +1,66 @@
+
+ ------------------------------------------------------------------------------
+   Job name ............ : 3
+   Failure criterion no. :      1
+   Comment : No commen                                                   
+   Transformation type   : Rosenblatt
+   Optimization algorithm: RFLS  
+   Date(dd.mm.yy) ...... : 23.05.2019
+   Time(hh:mm) ........  : 18:26
+   COMRELTI, (Version 8), (c) Copyright: RCP GmbH (1989-2012)
+ ------------------------------------------------------------------------------
+
+  Block beginning with Keyword $CHARVAL not found in Input-file !
+  Characteristic Values default to mean values.
+
+  Create buffer for $LIMFUNC with      2846 Bytes (Ier from Fstat =   0)
+
+     ----------------------------------------
+                   COMREL-TI
+     Iteration monitoring of YBETAU algorithm
+     ----------------------------------------
+        General enviroment information
+        Maximal number of iterations in RFLS1 =     50
+        Maximal number of iterations in RFLS2 =     50
+        Type of numerical derivatives         =      0
+        Precision for convergence criteria    =   1.0000E-03
+        Line search precision                 =   1.0000E-01
+
+     Initial U-space solution 
+           0.0000      0.0000      0.0000
+
+     Algorithm 1 : Iteration history
+ ------------------------------------------------------------------------------
+  Iteration No.  1; CPU-seconds(cumulative):     0.000
+   Scaled St.F(U) =  -1.995    ; BETA =      0.0000; BETA/ºUº=      0.0000
+ ------------------------------------------------------------------------------
+  Iteration No.  2; CPU-seconds(cumulative):     0.000
+   Scaled St.F(U) = -0.2193    ; BETA =     11.7091; BETA/ºUº=      1.6240
+ ------------------------------------------------------------------------------
+  Iteration No.  3; CPU-seconds(cumulative):     0.000
+   Scaled St.F(U) = -0.1023E-01; BETA =      7.2023; BETA/ºUº=      1.1099
+ ------------------------------------------------------------------------------
+  Iteration No.  4; CPU-seconds(cumulative):     0.000
+   Scaled St.F(U) =  0.2599E-05; BETA =      6.4884; BETA/ºUº=      1.0057
+ ------------------------------------------------------------------------------
+  Iteration No.  5; CPU-seconds(cumulative):     0.000
+   Scaled St.F(U) =  0.2095E-05; BETA =      6.4516; BETA/ºUº=      1.0000
+ ------------------------------------------------------------------------------
+  Iteration No.  6; CPU-seconds(cumulative):     0.000
+   Scaled St.F(U) =  0.1664E-05; BETA =      6.4516; BETA/ºUº=      1.0000
+ ------------------------------------------------------------------------------
+  Iteration No.  7; CPU-seconds(cumulative):     0.000
+   Scaled St.F(U) =  0.1381E-05; BETA =      6.4516; BETA/ºUº=      1.0000
+
+     Statistics after RFLS-algorithm #1 (YRFLS1)
+     Cumulative seconds used        :       0.0000
+     Number of iterations           :      7
+     Cumulative gradient calls      :      7
+     Cumulative state function calls:     32
+     State function scaling         :   3.7666E+02
+
+     Statistics after beta-point search :
+     Cumulative seconds used        :       0.0000
+     Number of iterations(RFLS-1+-2):      7
+     Cumulative gradient calls      :      7
+     Cumulative state function calls:     32
